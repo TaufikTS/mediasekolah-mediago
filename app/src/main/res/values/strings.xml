@@ -54,7 +54,7 @@
         Memahami, menerapkan dan menganalisis pengetahuan faktual, konseptual, procedural dan metakognitif berdasarkan rasa ingin tahunya tentang ilmu pengetahuan, teknologi, seni, budaya, dan humaniora dalam wawasan kemanusiaan, kebangsaan, kenegaraan, dan peradaban terkait penyebab fenomena dan kejadian dalam bidang kerja yang spesifik untuk memecahkan masalah. \n\n
     </string>
     <string name="text_ki_4">
-        Mengolah, menalar, dan menyaji dalam ranah konkret dan ranah abstrak terkait dengan pengembangan dari yang dipelajarinya di sekolah secara mandiri, bertindak secara efektif dan kreatif dan mampu melaksanakan tugas spesifik di bawah pengawasan langsung.
+        Melaksanakan tugas spesifik, dengan menggunakan alat, informasi, dan prosedur kerja yang lazim dilakukan serta menyelesaikan masalah sederhana sesuai dengan bidang dan lingkup Kelompok Kompetensi Pembiakan Tanaman.
     </string>
     <string name="layout">Layout</string>
     <string name="deskripsi">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs.</string>
@@ -487,4 +487,8 @@ Untuk mencegah translasi, maka resultan sistem gaya-gaya yang bekerja haruslah s
     <string name="pengertian_sambungan_solder">
         Sambungan solder merupakan penyambungan dari logam (besi, baja, tembaga, kuningan, seng dan baja paduan) dengan pengikatan oleh bahan tambah yang dicairkan, dalam ini titik cair bahan tambah lebih rendah dari titik cair logam yang disambungkan. Untuk sambungan yang membutuhkan kekuatan, kerapatan, dan ketahanan terhadap korosi, maka permukaan logam yang akan disolder harus benar-benar dibersihkan. Pada permukaan logam juga ditambahkan bahan pengalir untuk membantu pengaliran bahan tambah ke seluruh permukaan bidang yang disolder.
     </string>
+    <string name="indikator1">Menerapkan  teknik pembiakan tanaman secara generatif</string>
+    <string name="indikator2">Menerapkan  teknik pembiakan tanaman secara vegetative</string>
+    <string name="indikator3">Menerapkan  pembiakan tanaman secara modern/ kultur jaringan</string>
+    <string name="ki3">Memahami, menerapkan, menganalisis, dan mengevaluasi tentang pengetahuan faktual, konseptual, operasional dasar, dan metakognitif sesuai dengan bidang dan lingkup Kelompok Kompetensi Pembiakan Tanaman pada tingkat teknis, spesifik, detil, dan kompleks, berkenaan dengan ilmu pengetahuan, teknologi, seni, budaya, dan humaniora dalam konteks pengembangan potensi diri sebagai bagian dari keluarga, sekolah, dunia kerja, warga masyarakat nasional, regional, dan internasional.</string>
 </resources>

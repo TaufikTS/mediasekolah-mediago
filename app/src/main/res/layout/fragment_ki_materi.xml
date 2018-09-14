@@ -61,13 +61,18 @@
                                 android:textColor="#FFF"
                                 android:textSize="16dp" />
 
-                            <com.pixplicity.fontview.FontAppCompatTextView
+                            <io.github.leibnik.justifytextview.JustifyTextView
                                 style="@style/FontTextViewStyle"
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="@string/text_ki_3"
+                                android:baselineAligned="false"
+                                android:text="@string/ki3"
+                                android:textSize="16dp"
                                 android:textColor="#FFF"
-                                android:textSize="16dp" />
+                                app:align_chars="true"
+                                app:character_space="0px"
+                                app:line_space="3px" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -84,13 +89,17 @@
                                 android:textColor="#FFF"
                                 android:textSize="16dp" />
 
-                            <com.pixplicity.fontview.FontAppCompatTextView
+                            <io.github.leibnik.justifytextview.JustifyTextView
                                 style="@style/FontTextViewStyle"
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:baselineAligned="false"
                                 android:text="@string/text_ki_4"
+                                android:textSize="16dp"
+                                app:align_chars="true"
+                                app:character_space="0px"
                                 android:textColor="#FFF"
-                                android:textSize="16dp" />
+                                app:line_space="3px" />
                         </LinearLayout>
 
 
