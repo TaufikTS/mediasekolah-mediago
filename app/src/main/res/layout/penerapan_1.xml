@@ -49,13 +49,14 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:baselineAligned="false"
-                    android:text="@string/TTKepalaSilinder"
-                    android:textSize="14dp"
+                    android:text="@string/pengayaan_m1"
+                    android:textSize="14sp"
                     app:align_chars="true"
                     app:character_space="0px"
                     app:line_space="3dp" />
 
             </android.support.v7.widget.CardView>
+
         </ScrollView>
 
     </LinearLayout>

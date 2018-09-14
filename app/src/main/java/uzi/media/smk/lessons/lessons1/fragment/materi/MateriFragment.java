@@ -14,9 +14,8 @@ import uzi.media.smk.R;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementpenyangga.ElementPenyanggaActivityL1;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementransmisi.ElemenTransmisiActivityL1;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementsambungan.ElementSambunganActivityL1;
-import uzi.media.smk.lessons.lessons1.fragment.materi.penerapan.PenerapanActivityL1;
 import uzi.media.smk.lessons.lessons1.fragment.materi.materi1.mater1Activity;
-import uzi.media.smk.lessons.lessons1.fragment.materi.pengenalankomponenmesin.PengenalanKomponenMesinActivityL1;
+import uzi.media.smk.lessons.lessons1.fragment.materi.vid_penerapan.PengenalanKomponenMesinActivityL1;
 import uzi.media.smk.lessons.lessons1.fragment.materi.materi2.materi2Activity;
 
 /**

@@ -35,7 +35,7 @@
         <activity android:name=".lessons.lessons1.fragment.materi.elementsambungan.ElementSambunganActivityL1" />
         <activity android:name=".lessons.lessons1.fragment.materi.penerapan.PenerapanActivityL1" />
         <activity android:name=".lessons.lessons1.fragment.materi.materi2.materi2Activity" />
-        <activity android:name=".lessons.lessons1.fragment.materi.pengenalankomponenmesin.PengenalanKomponenMesinActivityL1" />
+        <activity android:name=".lessons.lessons1.fragment.materi.vid_penerapan.PengenalanKomponenMesinActivityL1" />
     </application>
 
 </manifest>
