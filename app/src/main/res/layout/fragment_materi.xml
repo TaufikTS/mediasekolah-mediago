@@ -32,9 +32,9 @@
 
                     <pl.droidsonroids.gif.GifImageView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="272dp"
                         android:background="@android:color/white"
-                        android:src="@drawable/ic_dasar" />
+                        android:src="@drawable/atph" />
 
                     <com.pixplicity.fontview.FontAppCompatButton
                         android:id="@+id/btn1"
@@ -109,6 +109,30 @@
 
                     <com.pixplicity.fontview.FontAppCompatButton
                         android:id="@+id/btn7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/gra_cyan_button_menu"
+                        android:text="PENGENALAN KOMPONEN MESIN"
+                        android:textAlignment="center"
+                        android:textColor="@color/background"
+                        android:textStyle="bold" />
+
+                    <com.pixplicity.fontview.FontAppCompatButton
+                        android:id="@+id/btn8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/gra_cyan_button_menu"
+                        android:text="PENGENALAN KOMPONEN MESIN"
+                        android:textAlignment="center"
+                        android:textColor="@color/background"
+                        android:textStyle="bold" />
+
+                    <com.pixplicity.fontview.FontAppCompatButton
+                        android:id="@+id/btn9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"

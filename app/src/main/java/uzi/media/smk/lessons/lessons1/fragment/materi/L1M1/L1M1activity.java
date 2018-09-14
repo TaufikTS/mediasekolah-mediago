@@ -1,4 +1,4 @@
-package uzi.media.smk.lessons.lessons1.fragment.materi.pengatar;
+package uzi.media.smk.lessons.lessons1.fragment.materi.L1M1;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,16 +13,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import uzi.media.smk.R;
-import uzi.media.smk.lessons.lessons1.fragment.materi.pengatar.isipengantar.ElemenMesin;
-import uzi.media.smk.lessons.lessons1.fragment.materi.pengatar.isipengantar.PengertianElemenMesin;
-import uzi.media.smk.lessons.lessons1.fragment.materi.pengatar.isipengantar.StatikaDanTegangan;
+import uzi.media.smk.lessons.lessons1.fragment.materi.L1M1.isi_L1M1.L1M1S3_vegetatif;
+import uzi.media.smk.lessons.lessons1.fragment.materi.L1M1.isi_L1M1.L1M1S1_bahan_tanam;
+import uzi.media.smk.lessons.lessons1.fragment.materi.L1M1.isi_L1M1.L1M1S2_generatif;
 
 /**
  * Created by uzi on 27/07/17.
  * Email : fauzisholichin@gmail.com
  */
 
-public class PengantarActivityL1 extends AppCompatActivity {
+public class L1M1activity extends AppCompatActivity {
 
     private ViewPager mPager;
     private TabLayout mTabLayout;
@@ -74,11 +74,11 @@ public class PengantarActivityL1 extends AppCompatActivity {
         public Fragment getItem(int i) {
             switch (i) {
                 case 0:
-                    return new PengertianElemenMesin();
+                    return new L1M1S1_bahan_tanam();
                 case 1:
-                    return new StatikaDanTegangan();
+                    return new L1M1S2_generatif();
                 case 2:
-                    return new ElemenMesin();
+                    return new L1M1S3_vegetatif();
 
             }
             return null;
@@ -88,11 +88,11 @@ public class PengantarActivityL1 extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Pengertian Bahan Tanam";
+                    return "Bahan Tanam";
                 case 1:
-                    return "STATIKA DAN TEGANGAN";
+                    return "Pembeieakan Generatif";
                 case 2:
-                    return "ELEMEN MESIN";
+                    return "Pembiakan Vegetatif";
             }
             return "";
         }

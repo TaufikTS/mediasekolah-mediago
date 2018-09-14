@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.pixplicity.fontview.FontAppCompatButton;
 
 import uzi.media.smk.R;
+import uzi.media.smk.lessons.lessons1.fragment.materi.L1M1.L1M1activity;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementpenyangga.ElementPenyanggaActivityL1;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementransmisi.ElemenTransmisiActivityL1;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementsambungan.ElementSambunganActivityL1;
@@ -66,7 +67,7 @@ public class MateriFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn1:
-                startActivity(new Intent(getActivity(), PengantarActivityL1.class));
+                startActivity(new Intent(getActivity(), L1M1activity.class));
                 break;
             case R.id.btn2:
                 startActivity(new Intent(getActivity(), StatikadanTeganganActivityL1.class));
