@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uzi.media.smk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="MediagoApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/classroom"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name="uzi.media.smk.ui.opening.OpeningActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="uzi.media.smk.ui.about.TentangActivity" />
+        <activity android:name=".lessons.lessons1.LessonsActivity" />
+        <activity
+            android:name=".ui.opening.AfterOpeningActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".ui.listJudul.ListPelajaranActivity" />
+        <activity android:name=".ui.listmateri.ListMateriMenu" />
+
+        <!--Memahami dasar dasar mesin-->
+        <activity android:name=".lessons.lessons1.fragment.materi.pengatar.PengantarActivityL1" />
+        <activity android:name=".lessons.lessons1.fragment.materi.elementpenyangga.ElementPenyanggaActivityL1" />
+        <activity android:name=".lessons.lessons1.fragment.materi.elementransmisi.ElemenTransmisiActivityL1" />
+        <activity android:name=".lessons.lessons1.fragment.materi.elementsambungan.ElementSambunganActivityL1" />
+        <activity android:name=".lessons.lessons1.fragment.materi.penerapan.PenerapanActivityL1" />
+        <activity android:name=".lessons.lessons1.fragment.materi.statikadantegangan.StatikadanTeganganActivityL1" />
+        <activity android:name=".lessons.lessons1.fragment.materi.pengenalankomponenmesin.PengenalanKomponenMesinActivityL1" />
+    </application>
+
+</manifest>

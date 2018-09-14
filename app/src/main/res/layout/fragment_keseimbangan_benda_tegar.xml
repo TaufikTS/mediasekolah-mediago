@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <ScrollView
+        android:id="@+id/svLog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <io.github.leibnik.justifytextview.JustifyTextView
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:text="@string/keseimbangan_benda_tegar_a"
+                            android:textSize="16dp"
+                            app:align_chars="true"
+                            app:character_space="0px"
+                            app:line_space="3px" />
+
+                        <io.github.leibnik.justifytextview.JustifyTextView
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:text="@string/keseimbangan_benda_tegar_b"
+                            android:textSize="16dp"
+                            app:align_chars="true"
+                            app:character_space="0px"
+                            app:line_space="3px"
+                            android:paddingBottom="8dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="131dp"
+                            android:src="@drawable/keseimbangan1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Gambar : Arah Gaya"
+                            android:paddingBottom="8dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="@string/KBT_no_1"
+                                android:textSize="16dp" />
+
+                            <io.github.leibnik.justifytextview.JustifyTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:baselineAligned="false"
+                                android:text="@string/KBT_judul_1"
+                                android:textSize="16dp"
+                                app:align_chars="true"
+                                app:character_space="0px"
+                                app:line_space="16px" />
+
+                        </LinearLayout>
+
+                        <io.github.leibnik.justifytextview.JustifyTextView
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:paddingLeft="16dp"
+                            android:text="@string/KBT_isi_1"
+                            android:textSize="16dp"
+                            app:align_chars="true"
+                            app:character_space="0px"
+                            app:line_space="16px"
+                            android:paddingBottom="8dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="@string/KBT_no_2"
+                                android:textSize="16dp" />
+
+                            <io.github.leibnik.justifytextview.JustifyTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:baselineAligned="false"
+                                android:text="@string/KBT_judul_2"
+                                android:textSize="16dp"
+                                app:align_chars="true"
+                                app:character_space="0px"
+                                app:line_space="16px" />
+
+                        </LinearLayout>
+
+                        <io.github.leibnik.justifytextview.JustifyTextView
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:paddingLeft="16dp"
+                            android:text="@string/KBT_isi_2"
+                            android:textSize="16dp"
+                            app:align_chars="true"
+                            app:character_space="0px"
+                            app:line_space="16px"
+                            android:paddingBottom="8dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

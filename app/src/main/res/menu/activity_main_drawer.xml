@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_0"
+            android:icon="@drawable/ic_cube_outline_black_48dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@mipmap/apersepsi"
+            android:title="Apersepsi" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@mipmap/ki_kd"
+            android:title="KI/KD" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@mipmap/materi"
+            android:title="Materi" />
+        <item
+            android:id="@+id/nav_4"
+            android:icon="@mipmap/simulasi"
+            android:title="Simulasi" />
+        <item
+            android:id="@+id/nav_5"
+            android:icon="@mipmap/pengayaan"
+            android:title="Pengayaan" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_6"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_nav_settings"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/nav_7"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_person"
+                    android:title="About Us" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

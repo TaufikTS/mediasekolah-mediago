@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <ScrollView
+        android:id="@+id/svLog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="#FFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="18dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/penerapan_gaya" />
+
+                        <io.github.leibnik.justifytextview.JustifyTextView
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:text="@string/GayaMobil"
+                            android:textSize="16dp"
+                            app:align_chars="true"
+                            app:character_space="0px"
+                            app:line_space="3px" />
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="151dp"
+                            android:background="@android:color/white"
+                            android:src="@drawable/penerapan_gaya_animasi_1" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="@string/TTG_no_1"
+                                android:textSize="16dp" />
+
+                            <io.github.leibnik.justifytextview.JustifyTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:baselineAligned="false"
+                                android:text="@string/TTG_isi_1"
+                                android:textSize="16dp"
+                                app:align_chars="true"
+                                app:character_space="0px"
+                                app:line_space="3px" />
+
+                        </LinearLayout>
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="151dp"
+                            android:background="@android:color/white"
+                            android:src="@drawable/penerapan_gaya_animasi_2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="@string/TTG_no_2"
+                                android:textSize="16dp" />
+
+                            <io.github.leibnik.justifytextview.JustifyTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:baselineAligned="false"
+                                android:text="@string/TTG_isi_2"
+                                android:textSize="16dp"
+                                app:align_chars="true"
+                                app:character_space="0px"
+                                app:line_space="3px" />
+
+                        </LinearLayout>
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="151dp"
+                            android:background="@android:color/white"
+                            android:src="@drawable/penerapan_gaya_animasi_3" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.pixplicity.fontview.FontAppCompatTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="@string/TTG_no_3"
+                                android:textSize="16dp" />
+
+                            <io.github.leibnik.justifytextview.JustifyTextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:baselineAligned="false"
+                                android:text="@string/TTG_isi_3"
+                                android:textSize="16dp"
+                                app:align_chars="true"
+                                app:character_space="0px"
+                                app:line_space="3px" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

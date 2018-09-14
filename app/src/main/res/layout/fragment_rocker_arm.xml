@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/main_media_frame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="#000000">
+
+            <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+                android:id="@+id/exoplayer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+        </FrameLayout>
+
+        <ScrollView
+            android:id="@+id/svLog"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#FFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="4dp">
+
+                <io.github.leibnik.justifytextview.JustifyTextView
+                    style="@style/FontTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:baselineAligned="false"
+                    android:text="@string/TTRockerArm"
+                    android:textSize="14dp"
+                    app:align_chars="true"
+                    app:character_space="0px"
+                    app:line_space="3dp" />
+
+            </android.support.v7.widget.CardView>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

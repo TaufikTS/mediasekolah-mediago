@@ -1,0 +1,490 @@
+<resources>
+    <string name="app_name">TKR</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- About tab -->
+    <string name="about_developers_label">Main developers</string>
+    <string name="about_translator_label">Translator</string>
+    <string name="changelog">Changelog</string>
+    <string name="translator"></string>
+    <string name="about_version_label">Version</string>
+    <string name="about_source_label">Source code</string>
+    <string name="about_libraries_label">Used libraries</string>
+
+    <!-- Navigation -->
+    <string name="nav_geometry">Geometry</string>
+    <string name="nav_about">About</string>
+    <string name="nav_reward">Material Design </string>
+    <string name="nav_bank">Nearest Bank</string>
+    <string name="nav_tips">Recycler Tips</string>
+
+
+    <string name="details">Details</string>
+    <string name="version_app">1.0.0</string>
+    <string name="tips">
+        1. Pilah Sampah berdasarkan kategorinya organik / anorganik \n\n
+        2. Kreasikan sampah tersebut menjadi barang yang dapat digunakan kembali\n\n
+        3. Dan anda bisa promosikan atau menjual ke teman anda\n\n
+        4. Anda bisa saja mengirimkan sampah anda ke bank sampah terdekat melalui samita agar dapat diproses
+    </string>
+    <string name="text_indikator">
+        1. Memahami kebutuhan perangkat VoIP \n\n
+        2. Memahami konsep kerja server Softswitch \n\n
+        3. Memahami Diagram VoIP dengan benar \n\n
+        4. Memahami proses kerja dalam komponen diagram VoIP \n\n
+        5. Memahami bagan server softswitch berkaitan dengan PBX \n\n
+        6. Memahami konsep kerja server softswitch berkaitan dengan PBX \n\n
+        7. Memahami Konfigurasi ekstensi pada server softswitch \n\n
+        8. Memahami Konfigurasi dial plan pada server softswitch \n\n
+        9. Memahami prosedur instalasi server softswitch berbasis session initial protocol (SIP) \n\n
+        10. Mampu melaksanakan prosedur instalasi server softswitch berbasis session initial protocol (SIP) \n\n
+    </string>
+    <string name="text_kd">
+        1. Memahami konsep kerja protokoler server softswitch \n\n
+        2. Memahami diagram rangkaian operasi komunikasi VoIP \n\n
+        3. Memahami bagan dan konsep kerja server softswitch berkaitan dengan PBX \n\n
+        4. Menjelaskan konfigurasi ekstensi dan dial plan server softswitch \n\n
+        5. Memahami prosedur instalasi server softswitch berbasis session initial protocol (SIP) \n\n
+    </string>
+    <string name="text_ki_3">
+        Memahami, menerapkan dan menganalisis pengetahuan faktual, konseptual, procedural dan metakognitif berdasarkan rasa ingin tahunya tentang ilmu pengetahuan, teknologi, seni, budaya, dan humaniora dalam wawasan kemanusiaan, kebangsaan, kenegaraan, dan peradaban terkait penyebab fenomena dan kejadian dalam bidang kerja yang spesifik untuk memecahkan masalah. \n\n
+    </string>
+    <string name="text_ki_4">
+        Mengolah, menalar, dan menyaji dalam ranah konkret dan ranah abstrak terkait dengan pengembangan dari yang dipelajarinya di sekolah secara mandiri, bertindak secara efektif dan kreatif dan mampu melaksanakan tugas spesifik di bawah pengawasan langsung.
+    </string>
+    <string name="layout">Layout</string>
+    <string name="deskripsi">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs.</string>
+    <string name="nav_home">Home</string>
+
+    <string name="aboutme">Front-End Android Developer</string>
+    <string name="nav_apersepsi">Apersepsi</string>
+    <string name="nav_kikd">KI/KD</string>
+    <string name="nav_materi">Materi</string>
+    <string name="nav_simulasi">Simulasi</string>
+    <string name="nav_pengayaan">Pengayaan</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_materi_server">Materi Server</string>
+    <string name="text_server_pengertian_element_mesin">
+        \nMesin adalah sebuah alat untuk memindahkan energi atau benda, sehingga mempunyai efisiensi.
+        \n\nEfisiensi adalah perbandingan antara Keluaran dengan Masukan. Dalam hal ini, Efisiensi meliputi efisiensi mekanis, termis, hidrolis dan elektris. Elemen adalah bagian penting yang dibutuhkan dari suatu keseluruhan yang lebih besar.
+        \n\nElemen mesin adalah bagian dari suatu alat untuk memindahkan energi/benda yang mempunyai efisiensi mekanis, termis, hidrolis, maupun elektris.\n\n
+    </string>
+    <string name="text_server_kelebihan_voip">
+1) Biaya lebih rendah untuk sambungan langsung jarak jauh. Penekanan utama dari VoIP adalah biaya. Dengan dua lokasi yang terhubung dengan internet maka biaya percakapan menjadi sangat rendah. \n\n
+2) Memanfaatkan infrastruktur jaringan data yang sudah ada untuk suara. Seperti memanfaatkan jalur internet atau bandwidth yang telah di sewa ke ISP, sehingga tidak diperlukan lagi tambahan biaya atau menekan biaya percakapan telepon yang masih menggunkan jalur Public Switched Telephone Network (PSTN) Telkom ( Fix line ). \n\n
+3) Penggunaan bandwidth yang lebih kecil daripada telepon biasa. Dengan majunya teknologi penggunaan bandwidth untuk voice sekarang ini menjadi sangat kecil. Teknik pemampatan data memungkinkan suara hanya membutuhkan sekitar 8kbps bandwidth. \n\n
+4) Memungkinkan digabung dengan jaringan telepon lokal yang sudah ada. Dengan adanya gateway bentuk jaringan VoIP bisa disambungkan dengan PABX yang ada dikantor. Komunikasi antar kantor bisa menggunakan pesawat telepon biasa. \n\n
+5) Berbagai bentuk jaringan VoIP bisa digabungkan menjadi jaringan yang besar. Contoh di Indonesia adalah VoIP Rakyat. \n\n
+6) Variasi penggunaan peralatan yang ada, misal dari PC sambung ke telepon biasa, IP phone handset. \n\n
+
+    </string>
+
+    <!--Memahami dasar dasar mesin -->
+    <string name="text_kd_memahami_dasar_mesin">
+        3.1. Memahami dasar-dasar mesin. \n\n
+        4.1. Menerapkan perhitungan dasar-dasar mesin. \n\n
+    </string>
+    <string name="indikator_memahami_dasar_mesin">
+        1. Menjelaskan dasar ilmu statika dan tegangan sesuai konsep keilmuan yang terkait \n\n
+        2. Menerangkan komponen/elemen mesin sesuai konsep keilmuan yang terkait. \n\n
+    </string>
+    <string name="nav_pengantar">Pengantar</string>
+    <string name="nav_statika_tegangan">Statika dan Tegangan</string>
+    <string name="nav_pengenalan_komponen_mesin">Pengenalan Komponen Mesin</string>
+    <string name="text_server_pengertian2">
+        Contoh mekanis  :   Pesawat angkut, dongkrak, mesin pres, mesin tekuk, dan mesin perkakas.\n\n
+        Contoh termis   :   ketel uap, motor bakar, mesin uap, dan turbin uap.\n\n
+        Contoh hidrolis :   pompa air, dan turbin air.\n\n
+        Contoh Elektrik :   pembangkit listrik, dan motor listrik\n\n
+    </string>
+    <string name="TTBlokSilinder">
+        \nBlok silinder merupakan inti dari pada mesin, yang terbuat dari besi tuang. Saat ini ada beberapa blok silinder yang terbuat dari paduan aluminium. Dengan bahan Aluminium blok silinder akan lebih ringan dan dapat meradiasikan panas lebih efisien dibandingkan dengan blok silinder yang terbuat dari  besi tuang. Blok Silinder dilengkapi rangka pada bagian dinding luar untuk memberikan kekuatan pada mesin dan membantu meradiasikan panas. Blok silinder terdiri dari beberapa lubang tabung silinder, yang di dalamnya terdapat torak yang bergerak turun-naik.Blok silinder juga merupakan tempat adanya silinder, saluran pendinginan, dan juga sebagai tempat saluran masuk dan buang. Blok silinder sering disebut dengan blok mesin.\n\n
+    </string>
+    <string name="GayaMobil">
+        Menurut SAE (Society Automotive Engineers), dalam dinamika karakteristik mobil dipengaruhi oleh tiga macam gaya yang membuat mobil akan mengalami gerakan lurus maju, ke samping, maupun naik turun, juga gerakan berputar pada tiga sumbu.\n
+    </string>
+    <string name="TTG_no_1">
+        1.
+    </string>
+    <string name="TTG_isi_1">
+        Gaya longitudinal sebagai akibat torsi dari mesin yang disalurkan oleh ban pada saat mobil melaju di jalur lurus. Gaya ini mewakili sumbu horisontal-longitudinal yang membuat mobil berguling (roll).
+        \nGerakan di samping terjadi karena mobil berjalan mendapat hambatan/ tekanan udara, sehingga badan mobil menjadi bergoyang.\n
+    </string>
+    <string name="TTG_no_2">
+        2.
+    </string>
+    <string name="TTG_isi_2">
+        Gaya lateral dari samping sebagai akibat gaya sentrifugal saat mobil berubah arah, membentuk sumbu horisontal-lateral yang membuat mobil mendongak dan menukik (pitch).
+        \nGerakan mendongak terjadi karena mobil mengalami percepatan, sedangkan gerakan menukik terjadi karena mobil mengalami perlambatan/pengereman.\n
+    </string>
+    <string name="TTG_no_3">
+        3.
+    </string>
+    <string name="TTG_isi_3">
+        Gaya vertikal dari atas/bawah yang ditimbulkan oleh gaya berat mobil itu sendiri, down force akibat efek aerodinamika, atau oleh permukaan jalan yang tidak rata, membentuk sumbu vertikal yang membuat hidung mobil bergerak ke kiri/kanan (yaw),\n\n
+    </string>
+    <string name="Tstatikategangan_A">
+        Ilmu statika merupakan  pengembangan  dari  ilmu  fisika. Ilmu statika menjelaskan gaya-gaya yang bekerja pada sebuah benda.\n
+    </string>
+    <string name="Tstatikategangan_B">
+    \nSebagai contoh, beban kendaraan pada jembatan atau jalan, beban akibat timbunan  tanah  pada  dinding  penahan tanah  (retaining wall), beban air waduk pada bendungan dan lain sebagainya.\n\n
+    </string>
+    <string name="elemen_mesin">
+    Elemen mesin merupakan bagian yang mendukung kinerja suatu sistem mesin. Elemen utama mesin terdiri tiga bagian yaitu elemen sambungan, elemen transmisi dan elemen penyangga. Beberapa contoh elemen mesin yaitu :
+    </string>
+    <string name="Gaya_Atas">
+        Gaya menyebabkan perubahan bentuk (deformasi) pada suatu struktur. Gaya mempunyai nilai dan arah, digambarkan dalam bentuk vektor yang arahnya ditunjukkan dengan anak panah. Sementara itu, panjang vektor digunakan untuk menunjukkan nilai gaya. \n\n
+    </string>
+    <string name="T_gaya_no_1">
+        1.
+    </string>
+    <string name="T_gaya_isi_1">
+        Hukum Paralelogram Gaya
+        \nHukum Paralelogram Gaya adalah buah gaya yang bereaksi pada suatu arah (titik) dapat diganti dengan sebuah gaya resultan, yang apabila ujung keduanya dihubungkan dengan garis, akan membentuk jajar genjang.\n
+    </string>
+    <string name="T_gaya_no_2">
+        2.
+    </string>
+    <string name="T_gaya_isi_2">
+        Hukum Transmisibilitas Gaya
+        \nHukum Transmisibilitas Gaya merupakan kondisi keseimbangan atau gerak suatu benda tegar tidak akan berubah apabila gaya yang beraksi pada suatu titik diganti dengan gaya lain yang sama besar dan arahnya, tetapi beraksi pada suatu titik yang berbeda, asalkan kedua gaya tersebut terletak pada suatu garis aksi yang sama.\n
+    </string>
+    <string name="T_gaya_no_3">
+    3.
+    </string>
+    <string name="T_gaya_isi_newton_1">
+        Hukum I Newton: Jika resultan gaya (ΣF) dan atau momen (ΣM) yang dikenakan benda sama dengan nol, maka sistem akan seimbang.\n
+    </string>
+    <string name="T_gaya_isi_newton_1_isi_A">
+        ΣF = 0 (kesetimbangan gaya)
+    </string>
+    <string name="T_gaya_isi_newton_1_isi_B">
+        ΣM = 0 (kesetimbangan momen)
+    </string>
+    <string name="T_gaya_no_4">
+    4.
+    </string>
+    <string name="T_gaya_isi_newton_2">
+        Hukum II Newton: Jika resultan gaya/momen yang dikenakan pada benda tidak sama dengan nol, maka benda tersebut akan mendapat percepatan linier atau anguler berbanding lurus dengan resultan yang bersangkutan.
+    </string>
+    <string name="T_gaya_isi_newton_2_isi_A">
+        a = ΣF/m (untuk gerak lurus)
+    </string>
+    <string name="T_gaya_isi_newton_2_isi_B">
+        a = ΣM/I (untuk gerak melingkar)
+    </string>
+    <string name="T_gaya_no_5">
+    5.
+    </string>
+    <string name="T_gaya_isi_newton_3">
+        Hukum III Newton: Setiap benda yang mendapat gaya aksi akan memeberikan gaya reaksi yang besarnya sama dengan gaya aksi, tetapi arahnya berlawanan.
+    </string>
+    <string name="T_gaya_isi_newton_3_isi_A">
+        ΣF aksi = -ΣF reaksi
+    </string>
+    <string name="V_R_Atas">
+        Sejumlah gaya yang bekerja pada suatu struktur dapat direduksi menjadi satu resultan gaya. Menghitung resultan gaya tergantung pada jumlah dan arah dari gaya-gayanya. Beberapa cara untuk menghitung atau mencari resultan gaya sebagai berikut.\n
+    </string>
+    <string name="V_R_no_2">
+    2.
+    </string>
+    <string name="V_R_judul_2">
+    Metode Segitiga dan Segi-Banyak Vektor Gaya
+    </string>
+    <string name="V_R_isi_2a">
+    Jika gaya-gaya yang bekerja tidak segaris, maka dapat digunakan cara  Paralellogram dan segitiga gaya.
+    </string>
+    <string name="V_R_isi_2b">
+    Jika terdapat lebih dari dua gaya, maka harus disusun suatu segi-banyak (poligon) gaya.
+    </string>
+    <string name="V_R_no_3">
+    3.
+    </string>
+    <string name="V_R_judul_3">
+    Metode Proyeksi Vector Gaya
+    </string>
+    <string name="V_R_isi_3a">
+        Proyeksi resultan dari dua buah vektor gaya pada setiap sumbu adalah sama dengan jumlah aljabar proyeksi tiap-tiap komponennya pada sumbu yang sama. X1 dan X adalah berturut-turut adalah proyeksi gaya F1 dan R terhadap sumbu x./n/n
+        Sedangkan  Y1 dan Y adalah masing-masing proyeksi gaya F1 dan R terhadap sumbu y dimana :
+    </string>
+    <string name="V_R_no_1">
+        1.
+    </string>
+    <string name="V_R_judul_1">
+    Metode Penjumlahan dan Pengurangan Vektor Gaya
+    </string>
+    <string name="V_R_isi_1">
+    Dua  gaya  atau  lebih  yang terdapat  pada satu garis dapat  langsung dijumlahkan jika searah  atau  dikurangkan  jika arahnya berlawanan.
+    </string>
+    <string name="V_R_rumus_3a">
+        Xi = Fi x cos αi; X = R x cos α; maka X = ΣXi\n
+        Yi = Fi x sin αi; Y = R x sin α; maka Y = ΣYi
+    </string>
+    <string name="V_R_isi_3b">
+        Metode ini tidak terbatas pada dua gaya. Jika hanya diketahui vektor-vektor gaya dan akan mencari resultan gaya, maka dapat diketahui dengan menjumlahkam komponen proyeksi sumbu yaitu X dan Y.
+    </string>
+    <string name="V_R_rumus_3b">
+        R =  √ X2+Y2  dan α = arc Tan X/Y
+    </string>
+    <string name="TTKepalaSilinder">
+        Dalam mesin pembakaran dalam, kepala silinder berada diatas blok silinder, sebagai ruang bakar yang juga berfungsi sebagai penutup blok silinder. Pada kepala silinder juga terdapat katup masuk dan katup buang. Kepala silinder, juga digunakan sebagai tempat water jacket atau saluran campuran air, coolant, katup, busi, dan injeksi bahan bakar. Mekanisme katup yang ada di kepala silinder memudahkan untuk produksi, perawatan dan perbaikan.   \n
+Kepala silinder adalah kunci dari kinerja dan efisiensi mesin pembakaran dalam, seperti bentuk  ruang pembakaran masuk dan buang yang berfungsi menentukan besarnya efisiensi volum dan efisiensi rasio kompresi mesin.
+    </string>
+    <string name="Momen_Atas">
+        Momen merupakan posisi vektor gaya yang menyebabkan perputaran terhadap suatu titik sumbu tertentu.\n
+    </string>
+    <string name="Momen_Bawah">
+        Pada gambar di atas beban yang bekerja pada titik B akan menimbulkan momen pada titik A.\n
+    </string>
+    <string name="MM_no_1">
+        1.
+    </string>
+    <string name="MM_judul_1">
+        Momen Puntir
+    </string>
+    <string name="MM_isi_1">
+        Momen yang menyebabkan perubahan gerakan putar yang mempercepat atau memperlambat gerak putar suatu benda. Gaya yang menuju suatu sumbu disebut konkruen, tidak akan menimbulkan momen pada sumbu-z.
+    </string>
+    <string name="MM_no_2">
+        2.
+    </string>
+    <string name="MM_judul_2">
+        Torsi terhadap Sumbu z
+    </string>
+    <string name="MM_isi_2">
+        Torsi terhadap sumbu-z akan menyebabkan kepuntiran pada pipa. Besarnya  momen  ditentukan  oleh  besarnya gaya F dan lengan momen (jarak tegak lurus gaya terhadap titik putar yang ditinjau).
+    </string>
+    <string name="MM_no_3">
+        3.
+    </string>
+    <string name="MM_judul_3">
+        Torsi terhadap Sumbu x
+    </string>
+    <string name="MM_isi_3">
+        Momen terhadap sumbu-x akan menyebabkan bending pada pipa.
+    </string>
+    <string name="MM_no_4">
+        4.
+    </string>
+    <string name="MM_judul_4">
+        Gaya Menuju Sumbu
+    </string>
+    <string name="MM_isi_4">
+        Gaya  yang  menuju  suatu  sumbu  disebut  sebagai  konkruen,  tidak  akan menimbulkan momen pada sumbu-z.
+    </string>
+    <string name="keseimbangan_benda_tegar_a">
+        Suatu benda berada dalam keseimbangan apabila gaya-gaya yang bekerja pada benda tersebut tidak menyebabkan translasi maupun rotasi pada benda. Oleh karena itu, agar benda tegar mengalami keseimbangan, translasi dan rotasi tersebut harus dihilangkan.
+    </string>
+    <string name="keseimbangan_benda_tegar_b">
+Untuk mencegah translasi, maka resultan sistem gaya-gaya yang bekerja haruslah sama dengan nol. Untuk mencegah rotasi, maka jumlah momen yang dihasilkan dari resultan oleh semua gaya yang bekerja harus sama dengan nol.
+    </string>
+    <string name="KBT_no_1">
+        1.
+    </string>
+    <string name="KBT_judul_1">
+        Keseimbangan Gaya
+    </string>
+    <string name="KBT_isi_1">
+        Dua buah gaya seimbang harganya sama, berlawanan arah dan segaris kerja. Gaya yang bekerja dalam kesetimbangan, jika dijumlahkan secara geometris akan membentuk segi-banyak tertutup. Tiga buah gaya atau lebih akan seimbang jika terletak pada satu bid (koplanar) dan berpot pada satu titik (konkruen).
+    </string>
+    <string name="KBT_no_2">
+        2.
+    </string>
+    <string name="KBT_judul_2">
+        Keseimbangan Momen
+    </string>
+    <string name="KBT_isi_2">
+    Momen adalah perkalian antara gaya dengan lengan gaya yang tegak lurus dengan arah gaya. Momen resultan dari beberapa gaya sama dengan jumlah momen komponennya. Jumlah momen sama dengan nol jika pusat momen terletak pada garis kerja gaya dan jumlahnya sama dengan nol.
+    </string>
+    <string name="SM_isi_1">
+        Sambungan lem/adhesive adalah penyambungan bahan yang sama atau bahan yang berbeda baik logam maupun non logam dengan memanfaatkan kontak permukaan ditambah bahan adhesive sebagai media penyambungan. Dahulu sambungan lem umumnya digunakan untuk sambungan non logam, seperti: kertas, karbon, kulit, karet, kayu, dan plastik. Dengan kemajuan teknologi sekarang, sambungan lem dapat digunakan pula untuk menyambung logam, terutama pada konstruksi ringan. Bahkan pada keadaan-keadaan tertentu, lem dapat mengganti sambungan las, keling, atau solder dengan keuntungan yang lebih besar.
+    </string>
+    <string name="SM_no_2">
+        2.
+    </string>
+    <string name="SM_judul_2">
+        2. Sandi Sambungan Lem
+    </string>
+    <string name="SM_no_2a">
+        a.
+    </string>
+    <string name="SM_judul_2a">
+        a. Kekuatan Sambungan Lem
+    </string>
+    <string name="SM_no_2b">
+        b.
+    </string>
+    <string name="SM_judul_2b">
+        b. Desain Sambungan Lem
+    </string>
+    <string name="SM_no_3a">
+        a
+    </string>
+    <string name="SM_judul_3a">
+        Kelebihan Sambungan Lem
+    </string>
+    <string name="SM_isi_3a_no_1">
+        1)
+    </string>
+    <string name="SM_isi_3a_isi_1">
+        Dapat menyambung bahan sejenis atau bahan yang berbeda seperti logam dengan plastik, kulit, atau karet.
+    </string>
+    <string name="SM_isi_3a_no_2">
+        2)
+    </string>
+    <string name="SM_isi_3a_isi_2">
+        Beban yang diterima merata.
+    </string>
+    <string name="SM_isi_3a_no_3">
+        3)
+    </string>
+    <string name="SM_isi_3a_isi_3">
+        Tidak mengalami konsentrasi tegangan.
+    </string>
+    <string name="SM_isi_3a_no_4">
+        4)
+    </string>
+    <string name="SM_isi_3a_isi_4">
+        Isolator terhadap panas dan listrik.
+    </string>
+    <string name="SM_isi_3a_no_5">
+        5)
+    </string>
+    <string name="SM_isi_3a_isi_5">
+        Pengerjaan pada suhu rendah.
+    </string>
+    <string name="SM_isi_3a_no_6">
+        6)
+    </string>
+    <string name="SM_isi_3a_isi_6">
+        Tidak merusak permukaan.
+    </string>
+    <string name="SM_isi_3a_no_7">
+        7)
+    </string>
+    <string name="SM_isi_3a_isi_7">
+        Tidak terjadi korosi listrik.
+    </string>
+    <string name="SM_isi_3a_no_8">
+        8)
+    </string>
+    <string name="SM_isi_3a_isi_8">
+        Dapat menyesuaikan diri terhadap pemuaian.
+    </string>
+    <string name="SM_isi_3a_no_9">
+        9)
+    </string>
+    <string name="SM_isi_3a_isi_9">
+        Mudah dan murah terutama pada proses perekatan dingin.
+    </string>
+    <string name="SM_isi_3a_no_10">
+        10)
+    </string>
+    <string name="SM_isi_3a_isi_10">
+        Tidak menambah berat/volume, terutama untuk konstruksi pesawat terbang.
+    </string>
+    <string name="SM_isi_3a_no_11">
+        11)
+    </string>
+    <string name="SM_isi_3a_isi_11">
+        Kedap gas dan cairan.
+    </string>
+    <string name="SM_no_3b">
+        b
+    </string>
+    <string name="SM_judul_3b">
+        Kekurangan Sambungan Lem
+    </string>
+    <string name="SM_isi_3b_no_1">
+        1)
+    </string>
+    <string name="SM_isi_3b_isi_1">
+        Kemampuan menahan beban kejut, bengkok, dan kupas rendah.
+    </string>
+    <string name="SM_isi_3b_no_2">
+        2)
+    </string>
+    <string name="SM_isi_3b_isi_2">
+        Kemampuan menahan panas terbatas.
+    </string>
+    <string name="SM_isi_3b_no_3">
+        3)
+    </string>
+    <string name="SM_isi_3b_isi_3">
+        Kurang tahan terhadap beban berganti.
+    </string>
+    <string name="SM_isi_3b_no_4">
+        4)
+    </string>
+    <string name="SM_isi_3b_isi_4">
+        Memerlukan penanganan awal terhadap permukaan benda yang akan direkat.
+    </string>
+    <string name="SM_isi_3b_no_5">
+        5)
+    </string>
+    <string name="SM_isi_3b_isi_5">
+        Waktu pendinginan dan pengerasan hingga benar-benar mengikat relative lama, terutama pada proses perekatan panas.
+    </string>
+    <string name="SM_isi_3b_no_6">
+        6)
+    </string>
+    <string name="SM_isi_3b_isi_6">
+        Harus memperhitungkan kontak permukaan yang cukup.
+    </string>
+    <string name="SM_isi_3b_no_7">
+        7)
+    </string>
+    <string name="SM_isi_3b_isi_7">
+        Sukar dalam pengujian non-destruktif.
+    </string>
+    <string name="TTPiston">
+        Piston bergerak naik turun terus menerus di dalam silinder untuk melakukan langkah hisap, kompresi, pembakaran dan pembuangan. Oleh sebab itu, piston harus tahan terhadap tekanan tinggi, suhu tinggi, dan putaran yang tinggi. Piston dibuat dari bahan paduan aluminium, besi tuang, dan keramik. Pada umumnya piston dari bahan aluminium paling banyak digunakan, selain lebih ringan, radiasi panasnya juga lebih efisien.
+        Batang piston juga dapat mengubah gerak melingkar menjadi gerak linear. Karena batang piston itu kaku, maka ia dapat merotasi crank melalui tarikan dan dorongan piston. Batang piston saat ini paling banyak ditemukan pada mesin-mesin pembakaran dalam, seperti pada mesin mobil.
+    </string>
+    <string name="TTPoros">
+        Fungsi poros engkol adalah mengubah gerak naik turun atau gerak lurus piston menjadi gerak putar. Poros engkol adalah salah satu komponen penting suatu mesin. Poros engkol juga menerima beban dan tekanan yang sangat tinggi dari hasil pembakaran oleh piston, untuk itu poros engkol haruslah terbuat dari bahan yang sangat kuat dan tahan lama. Poros engkol atau crankshaft terbuat dari baja karbon tinggi. Poros engkol terletak diantara blok silinder dan bak oli yang terhubung langsung dengan roda gila dan batang torak. Putaran dari poros engkol diteruskan ke roda gila dan selanjutnya kopling yang akan memegang kendali
+    </string>
+    <string name="TTRockerArm">
+        Rocker arm merupakan salah satu bagian di dalam mesin mobil maupun mesin motor. Rocker Arm (tuas katup dalam Bahasa Indonesia) adalah sebuah alat yang diciptakan oleh Jonathan "Rundle" Bacon pada abad ke 19. Rocker arm adalah sebuah tuas dinamis yang mengubah gaya putar pada camshaft lobe menjadi gaya linear yang membuka dan menutup valve. Penggunaan rocker arm ini pada umumnya adalah pada  mesin-mesin berpiston, seperti mesin mobil, motor, kapal, dan mesin pesawat. Rocker arm menjadi sangat penting karena rocker arm yang akan mengatur bukaan katup bagi pasokan bahan bakar dan udara ke dalam ruang mesin.
+    </string>
+    <string name="TTFlyWheel">
+        Fly wheel atau yang biasa disebut dengan roda gila berfungsi untuk menyimpan tenaga putar yang dihasilkan mesin pada langkah usaha, sehingga poros engkol dapat tetap berputar terus menerus pada langkah langkah lainnya. Hal ini dapat mengakibatkan mesin berputar dengan lembut yang diakibatkan getaran tenaga yang dihasilkan. Roda gila terbuat dari bahan baja tuang dengan mutu tinggi yang diikat oleh baut pada bagian belakang poros engkol pada kendaraan yang menggunakan transmisi manual. Roda gila dilengkapi dengan ring gear yang dipasangkan dibagian luarnya, fungsinya untuk perkaitan dengan gigi pinion dari motor starter.
+    </string>
+    <string name="pengertian_poros">
+        Poros adalah suatu bagian stasioner yang beputar. Pada bagian ini terpasang elemen-elemen seperti roda gigi (gear),  pulley, flywheel, engkol, sprocket  dan elemen pemindah lainnya. Poros berfungsi  untuk meneruskan tenaga melalui  putaran mesin.
+    </string>
+    <string name="pengertian_pasak">
+        Pasak adalah elemen mesin yang dipakai untuk menetapkan bagian-bagian mesin seperti roda gigi, sprocket, pulley dan kopling pada poros. Pasak berupa sepotong baja lunak (mild steel) yang berfungsi sebagai pengunci.
+    </string>
+    <string name="poros_transmisi">
+        Poros ini mendapat beban puntir murni atau puntir dan lentur. Daya ditransmisikan kepada poros ini melalui kopling, roda gigi, puli sabuk, dan sprocket rantai.
+    </string>
+    <string name="spindle">
+        Spindle adalah poros transmisi yang relatif pendek, seperti poros utama mesin perkakas, dalam hal ini beban utamanya berupa puntiran. Syarat yang harus dipenuhi oleh poros ini adalah deformasinya harus kecil serta bentuk dan ukurannya harus presisi.
+    </string>
+    <string name="gandar">
+        Gandar adalah poros yang dipasang di antara roda-roda kereta barang, roda-roda tersebut tidak mendapat beban puntir. Gandar ini hanya mendapat beban lentur.
+    </string>
+    <string name="BP">
+        Pasak jenis ini dipasang terbenam setengah pada bagian poros dan setengah pada bagian yang dihubungkan.
+    </string>
+    <string name="pasak_pelana">
+        Pasak jenis ini terdiri atas dua jenis yaitu pasak pelana datar dan lengkung.
+    </string>
+    <string name="pasak_bulat">
+        Merupakan pasak berpenampang bulat yang dipasang dengan posisi pas dalam lubang antara poros dan hub.
+    </string>
+    <string name="pasak_bintang">
+        Pasak jenis ini memiliki kekuatan yang lebih besar dibanding dengan tipe-tipe pasak lainnya. Kekuatan ini karena konstruksi pasaknya dibuat lansung pada bahan poros dan hub yang saling terkait.
+    </string>
+    <string name="pengertian_kopling">
+        Kopling adalah suatu elemen mesin yang berfungsi untuk mentransmisikan daya dari poros  penggerak (driving shaft) ke poros yang digerakkan (driven shaft), dimana putaran inputnya akan sama dengan putaran outputnya. Tanpa kopling, sulit untuk menggerakkan elemen mesin sebaik-baiknya. Dengan adanya kopling, pemindahan daya dapat dilakukan secara teratur dan seefisien mungkin.
+    </string>
+    <string name="pengertian_sambungan_solder">
+        Sambungan solder merupakan penyambungan dari logam (besi, baja, tembaga, kuningan, seng dan baja paduan) dengan pengikatan oleh bahan tambah yang dicairkan, dalam ini titik cair bahan tambah lebih rendah dari titik cair logam yang disambungkan. Untuk sambungan yang membutuhkan kekuatan, kerapatan, dan ketahanan terhadap korosi, maka permukaan logam yang akan disolder harus benar-benar dibersihkan. Pada permukaan logam juga ditambahkan bahan pengalir untuk membantu pengaliran bahan tambah ke seluruh permukaan bidang yang disolder.
+    </string>
+</resources>
