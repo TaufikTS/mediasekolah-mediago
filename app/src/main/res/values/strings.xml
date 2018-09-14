@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TKR</string>
+    <string name="app_name">ATPH</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -93,8 +93,8 @@
         2. Menerangkan komponen/elemen mesin sesuai konsep keilmuan yang terkait. \n\n
     </string>
     <string name="nav_pengantar">Pengantar</string>
-    <string name="nav_statika_tegangan">Statika dan Tegangan</string>
-    <string name="nav_pengenalan_komponen_mesin">Pengenalan Komponen Mesin</string>
+    <string name="nav_materi2">Pembiakan Generatif</string>
+    <string name="nav_pengenalan_komponen_mesin">Penerapan</string>
     <string name="text_server_pengertian2">
         Contoh mekanis  :   Pesawat angkut, dongkrak, mesin pres, mesin tekuk, dan mesin perkakas.\n\n
         Contoh termis   :   ketel uap, motor bakar, mesin uap, dan turbin uap.\n\n
@@ -142,15 +142,14 @@
     <string name="T_gaya_no_1">
         1.
     </string>
-    <string name="T_gaya_isi_1">
-        Hukum Paralelogram Gaya
-        \nHukum Paralelogram Gaya adalah buah gaya yang bereaksi pada suatu arah (titik) dapat diganti dengan sebuah gaya resultan, yang apabila ujung keduanya dihubungkan dengan garis, akan membentuk jajar genjang.\n
+    <string name="m2_s1_2">
+        Bahan tanam merupakan bagian dari tanaman, seperti benih dan setek yang dapat dipergunakan sebagai bahan untuk membiakkan tanaman. Bahan tanam untuk pembiakan secara generatif adalah biji yang disiapkan menjadi benih. Pada biji monokotil, morfologi biji terdiri dari kulit biji (seed coat), endosperm, kotiledon, dan embrio. Pada biji tanaman Gymnospermae, morfologi biji terdiri dari kulit biji (testa), mega gametofit, embrio yang terdiri dari kotiledon dan calon akar, sedangkan untuk biji dikotiledon terdiri dari kulit biji (testa) dan embrio (dua kotiledon, calon akar dan calon daun pertama)\n
     </string>
     <string name="T_gaya_no_2">
         2.
     </string>
     <string name="T_gaya_isi_2">
-        Hukum Transmisibilitas Gaya
+        Hukum Transmisibilitas Gaya\n\n
         \nHukum Transmisibilitas Gaya merupakan kondisi keseimbangan atau gerak suatu benda tegar tidak akan berubah apabila gaya yang beraksi pada suatu titik diganti dengan gaya lain yang sama besar dan arahnya, tetapi beraksi pada suatu titik yang berbeda, asalkan kedua gaya tersebut terletak pada suatu garis aksi yang sama.\n
     </string>
     <string name="T_gaya_no_3">
@@ -493,5 +492,8 @@ Untuk mencegah translasi, maka resultan sistem gaya-gaya yang bekerja haruslah s
     <string name="ki3">Memahami, menerapkan, menganalisis, dan mengevaluasi tentang pengetahuan faktual, konseptual, operasional dasar, dan metakognitif sesuai dengan bidang dan lingkup Kelompok Kompetensi Pembiakan Tanaman pada tingkat teknis, spesifik, detil, dan kompleks, berkenaan dengan ilmu pengetahuan, teknologi, seni, budaya, dan humaniora dalam konteks pengembangan potensi diri sebagai bagian dari keluarga, sekolah, dunia kerja, warga masyarakat nasional, regional, dan internasional.</string>
     <string name="L1M1S1_bahan_tanam"><![CDATA[Bahan Tanam merupakan bagian tanaman yang digunakan untuk memulai/ mengawali budidaya tanaman. Semua organ tanaman dapat digunakan sebagai bahan tanam, namun harus efisien, tersedia dan berpotensi produksi tinggi. Bahan Tanam sangat menentukan produktifitas tanaman (+ > 50 %) baik kuantitas/kualitas » sifat genetis dan daya tumbuh yang baik]]></string>
     <string name="L1M1S2_generatif">Benih generatif adalah benih yang berasal dari proses generatif dan digunakan untuk tujuan pengembangbiakan tanaman. Ciri-ciri benih generatif adalah  berkecambah sebelum menjadi tanaman. Perkecambahan benih dipengaruhi oleh 2 faktor yaitu faktor internal (Kemasakan biji, Dormansi, ukuran benih, dan faktor zat penghambat) sedangkan faktor eksternal (air, cahaya, tempeartur, dan Media Kecambah)</string>
-    <string name="L1M1S3_vegetatif">Pembiakan secara vegetatif adalah kegiatan mengembangbiakan tanaman dengan menggunakan bagian dari tanaman. Bisa berasal dari tunas, daun, cabang, batang dan akar. Pembiakan tanaman secara vegetatif ada dua yaitu :</string>>
+    <string name="L1M1S3_vegetatif">Pembiakan secara vegetatif adalah kegiatan mengembangbiakan tanaman dengan menggunakan bagian dari tanaman. Bisa berasal dari tunas, daun, cabang, batang dan akar. Pembiakan tanaman secara vegetatif ada dua yaitu :</string>
+    <string name="m2_s1_1">Pemilihan benih merupakan faktor yang amat penting dalam rangkaian budidaya tanaman, karena benih merupakan awal kehidupan sehingga untuk mendapatkan produksi yang tinggi perlu dipilih benih yang baik dan bermutu.</string>
+    <string name="m2_s1_3">Perkecambahan benih merupakan proses pertumbuhan dan perkembangan embrio. Hasil perkecambahan ini adalah munculnya tumbuhan kecil dari dalam biji. Proses pertumbuhan embrio saat perkecambahan benih adalah plumula tumbuh dan berkembang menjadi pucuk dan radikula tumbuh dan berkembang menjadi akar. Berdasarkan letak kotiledon pada saat perkecambahan dikenal dua tipe perkecambahan yaitu hipogeal dan epigeal.</string>
+    >
 </resources>

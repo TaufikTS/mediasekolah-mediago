@@ -12,6 +12,7 @@ import android.widget.VideoView;
 
 import uzi.media.smk.R;
 import uzi.media.smk.ui.listJudul.ListPelajaranActivity;
+import uzi.media.smk.ui.listmateri.ListMateriMenu;
 
 /**
  * Created by uzi on 29/09/17.
@@ -27,7 +28,7 @@ public class AfterOpeningActivity extends AppCompatActivity {
         bntNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AfterOpeningActivity.this, ListPelajaranActivity.class));
+                startActivity(new Intent(AfterOpeningActivity.this, ListMateriMenu.class));
                 finish();
             }
         });

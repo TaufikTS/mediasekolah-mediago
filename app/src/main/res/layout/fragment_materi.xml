@@ -55,10 +55,11 @@
                         android:layout_marginBottom="5dp"
                         android:layout_marginTop="5dp"
                         android:background="@drawable/gra_cyan_button_menu"
-                        android:text="STATIKA DAN TEGANGAN"
+                        android:text="pembiakan tanaman secara generatif"
                         android:textAlignment="center"
                         android:textColor="@color/background"
                         android:textStyle="bold" />
+
 
                     <com.pixplicity.fontview.FontAppCompatButton
                         android:id="@+id/btn3"
@@ -67,7 +68,8 @@
                         android:layout_marginBottom="5dp"
                         android:layout_marginTop="5dp"
                         android:background="@drawable/gra_cyan_button_menu"
-                        android:text="ELEMEN SAMBUNGAN"
+                        android:text="pembiakan tanaman secara vegetatif alami"
+                        android:textAlignment="center"
                         android:textColor="@color/background"
                         android:textStyle="bold" />
 
@@ -78,11 +80,10 @@
                         android:layout_marginBottom="5dp"
                         android:layout_marginTop="5dp"
                         android:background="@drawable/gra_cyan_button_menu"
-                        android:text="ELEMEN TRANSMISI"
+                        android:text="pembiakan tanaman secara vegetatif buatan"
                         android:textAlignment="center"
                         android:textColor="@color/background"
                         android:textStyle="bold" />
-
                     <com.pixplicity.fontview.FontAppCompatButton
                         android:id="@+id/btn5"
                         android:layout_width="match_parent"
@@ -90,7 +91,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_marginTop="5dp"
                         android:background="@drawable/gra_cyan_button_menu"
-                        android:text="ELEMEN PENYANGGA"
+                        android:text="pembiakan tanaman secara kultur jaringan"
                         android:textAlignment="center"
                         android:textColor="@color/background"
                         android:textStyle="bold" />
@@ -102,43 +103,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_marginTop="5dp"
                         android:background="@drawable/gra_cyan_button_menu"
-                        android:text="PENERAPAN"
-                        android:textAlignment="center"
-                        android:textColor="@color/background"
-                        android:textStyle="bold" />
-
-                    <com.pixplicity.fontview.FontAppCompatButton
-                        android:id="@+id/btn7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/gra_cyan_button_menu"
-                        android:text="PENGENALAN KOMPONEN MESIN"
-                        android:textAlignment="center"
-                        android:textColor="@color/background"
-                        android:textStyle="bold" />
-
-                    <com.pixplicity.fontview.FontAppCompatButton
-                        android:id="@+id/btn8"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/gra_cyan_button_menu"
-                        android:text="PENGENALAN KOMPONEN MESIN"
-                        android:textAlignment="center"
-                        android:textColor="@color/background"
-                        android:textStyle="bold" />
-
-                    <com.pixplicity.fontview.FontAppCompatButton
-                        android:id="@+id/btn9"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/gra_cyan_button_menu"
-                        android:text="PENGENALAN KOMPONEN MESIN"
+                        android:text="penerapan"
                         android:textAlignment="center"
                         android:textColor="@color/background"
                         android:textStyle="bold" />

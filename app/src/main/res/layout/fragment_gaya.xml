@@ -49,10 +49,10 @@
                         <ImageView
                             android:id="@+id/ivGambar1"
                             android:layout_width="match_parent"
-                            android:layout_height="155dp"
+                            android:layout_height="279dp"
                             android:layout_gravity="center"
                             android:paddingBottom="16dp"
-                            android:src="@drawable/gariskerjagaya" />
+                            android:src="@drawable/l1m1g1" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -67,25 +67,40 @@
                                 android:text="@string/T_gaya_no_1"
                                 android:textSize="16dp" />
 
+                            <TextView
+                                style="@style/FontTextViewStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:baselineAligned="false"
+                                android:text="Bagian_bagian Generatif Biji"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="297dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="9dp"
+                            android:src="@drawable/l1m1g2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            >
                             <io.github.leibnik.justifytextview.JustifyTextView
                                 style="@style/FontTextViewStyle"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:baselineAligned="false"
-                                android:text="@string/T_gaya_isi_1"
+                                android:text="@string/m2_s1_2"
                                 android:textSize="16dp"
                                 app:align_chars="true"
                                 app:character_space="0px"
                                 app:line_space="16px" />
 
                         </LinearLayout>
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="143dp"
-                            android:layout_gravity="center"
-                            android:layout_marginBottom="9dp"
-                            android:src="@drawable/resultangaya" />
 
                         <LinearLayout
                             android:layout_width="match_parent"

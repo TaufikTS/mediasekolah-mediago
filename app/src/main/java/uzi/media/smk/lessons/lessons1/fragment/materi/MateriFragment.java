@@ -11,14 +11,13 @@ import android.widget.Toast;
 import com.pixplicity.fontview.FontAppCompatButton;
 
 import uzi.media.smk.R;
-import uzi.media.smk.lessons.lessons1.fragment.materi.L1M1.L1M1activity;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementpenyangga.ElementPenyanggaActivityL1;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementransmisi.ElemenTransmisiActivityL1;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementsambungan.ElementSambunganActivityL1;
 import uzi.media.smk.lessons.lessons1.fragment.materi.penerapan.PenerapanActivityL1;
-import uzi.media.smk.lessons.lessons1.fragment.materi.pengatar.PengantarActivityL1;
+import uzi.media.smk.lessons.lessons1.fragment.materi.materi1.mater1Activity;
 import uzi.media.smk.lessons.lessons1.fragment.materi.pengenalankomponenmesin.PengenalanKomponenMesinActivityL1;
-import uzi.media.smk.lessons.lessons1.fragment.materi.statikadantegangan.StatikadanTeganganActivityL1;
+import uzi.media.smk.lessons.lessons1.fragment.materi.materi2.materi2Activity;
 
 /**
  * Created by uzi on 26/07/17.
@@ -34,7 +33,6 @@ public class MateriFragment extends Fragment implements View.OnClickListener {
     private FontAppCompatButton btn4;
     private FontAppCompatButton btn5;
     private FontAppCompatButton btn6;
-    private FontAppCompatButton btn7;
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -46,7 +44,6 @@ public class MateriFragment extends Fragment implements View.OnClickListener {
         btn4.setOnClickListener(this);
         btn5.setOnClickListener(this);
         btn6.setOnClickListener(this);
-        btn7.setOnClickListener(this);
     }
 
     @Override
@@ -59,7 +56,6 @@ public class MateriFragment extends Fragment implements View.OnClickListener {
         btn4 = (FontAppCompatButton) v.findViewById(R.id.btn4);
         btn5 = (FontAppCompatButton) v.findViewById(R.id.btn5);
         btn6 = (FontAppCompatButton) v.findViewById(R.id.btn6);
-        btn7 = (FontAppCompatButton) v.findViewById(R.id.btn7);
         return v;
     }
 
@@ -67,10 +63,10 @@ public class MateriFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn1:
-                startActivity(new Intent(getActivity(), L1M1activity.class));
+                startActivity(new Intent(getActivity(), mater1Activity.class));
                 break;
             case R.id.btn2:
-                startActivity(new Intent(getActivity(), StatikadanTeganganActivityL1.class));
+                startActivity(new Intent(getActivity(), materi2Activity.class));
                 break;
             case R.id.btn3:
                 startActivity(new Intent(getActivity(), ElementSambunganActivityL1.class));
@@ -82,9 +78,6 @@ public class MateriFragment extends Fragment implements View.OnClickListener {
                 startActivity(new Intent(getActivity(), ElementPenyanggaActivityL1.class));
                 break;
             case R.id.btn6:
-                startActivity(new Intent(getActivity(), PenerapanActivityL1.class));
-                break;
-            case R.id.btn7:
                 startActivity(new Intent(getActivity(), PengenalanKomponenMesinActivityL1.class));
                 break;
             default:

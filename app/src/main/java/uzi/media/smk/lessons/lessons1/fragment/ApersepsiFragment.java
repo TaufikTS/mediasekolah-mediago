@@ -32,7 +32,7 @@ public class ApersepsiFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_apersepsi, container, false);
         VideoView view = (VideoView) v.findViewById(R.id.vvApersepsi);
-        String path = "android.resource://" + getActivity().getPackageName() + "/" + R.raw.apersepsi_dasar_mesin;
+        String path = "android.resource://" + getActivity().getPackageName() + "/" + R.raw.aperesepsi;
         view.setVideoURI(Uri.parse(path));
         view.start();
         return v;

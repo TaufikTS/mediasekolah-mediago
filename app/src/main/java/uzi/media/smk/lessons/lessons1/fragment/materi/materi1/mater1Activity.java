@@ -1,4 +1,4 @@
-package uzi.media.smk.lessons.lessons1.fragment.materi.elementpenyangga;
+package uzi.media.smk.lessons.lessons1.fragment.materi.materi1;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,15 +13,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import uzi.media.smk.R;
-import uzi.media.smk.lessons.lessons1.fragment.materi.elementpenyangga.isielemenpenyangga.Bantalan;
-import uzi.media.smk.lessons.lessons1.fragment.materi.elementpenyangga.isielemenpenyangga.Pegas;
+import uzi.media.smk.lessons.lessons1.fragment.materi.materi1.isipengantar.L1M1S1_bahan_tanam;
+import uzi.media.smk.lessons.lessons1.fragment.materi.materi1.isipengantar.L1M1S2_generatif;
+import uzi.media.smk.lessons.lessons1.fragment.materi.materi1.isipengantar.L1M1S3_vegetatif;
 
 /**
  * Created by uzi on 27/07/17.
  * Email : fauzisholichin@gmail.com
  */
 
-public class ElementPenyanggaActivityL1 extends AppCompatActivity {
+public class mater1Activity extends AppCompatActivity {
 
     private ViewPager mPager;
     private TabLayout mTabLayout;
@@ -66,17 +67,18 @@ public class ElementPenyanggaActivityL1 extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 2;
+            return 3;
         }
 
         @Override
         public Fragment getItem(int i) {
             switch (i) {
                 case 0:
-                    return new Pegas();
+                    return new L1M1S1_bahan_tanam();
                 case 1:
-                    return new Bantalan();
-
+                    return new L1M1S2_generatif();
+                case 2:
+                    return new L1M1S3_vegetatif();
             }
             return null;
         }
@@ -85,9 +87,11 @@ public class ElementPenyanggaActivityL1 extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "PEGAS";
+                    return "Pengertian Bahan Tanam";
                 case 1:
-                    return "BANTALAN";
+                    return "STATIKA DAN TEGANGAN";
+                case 2:
+                    return "ELEMEN MESIN";
             }
             return "";
         }

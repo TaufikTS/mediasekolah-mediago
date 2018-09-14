@@ -18,9 +18,6 @@ import uzi.media.smk.lessons.lessons1.fragment.materi.elementransmisi.isitransmi
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementransmisi.isitransmisi.Rem;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementransmisi.isitransmisi.RodaGigi;
 import uzi.media.smk.lessons.lessons1.fragment.materi.elementransmisi.isitransmisi.SabukRantaiPenggerak;
-import uzi.media.smk.lessons.lessons1.fragment.materi.pengatar.isipengantar.ElemenMesin;
-import uzi.media.smk.lessons.lessons1.fragment.materi.pengatar.isipengantar.PengertianElemenMesin;
-import uzi.media.smk.lessons.lessons1.fragment.materi.pengatar.isipengantar.StatikaDanTegangan;
 
 /**
  * Created by uzi on 27/07/17.

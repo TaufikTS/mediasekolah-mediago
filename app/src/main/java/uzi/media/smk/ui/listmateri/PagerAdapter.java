@@ -22,13 +22,13 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position) {
             case 0:
-                TabMateriX tab1 = new TabMateriX();
+                tabc2MXI tab1 = new tabc2MXI();
                 return tab1;
             case 1:
-                TabMateriXI tab2 = new TabMateriXI();
+                tabc3MXI tab2 = new tabc3MXI();
                 return tab2;
             case 2:
-                TabMateriXII tab3 = new TabMateriXII();
+                tabC3MXII tab3 = new tabC3MXII();
                 return tab3;
             default:
                 return null;

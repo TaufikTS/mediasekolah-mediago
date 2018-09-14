@@ -32,7 +32,7 @@ public class OpeningActivity extends AppCompatActivity {
         });
 
         VideoView view = (VideoView) findViewById(R.id.vvOpening);
-        String path = "android.resource://" + getPackageName() + "/" + R.raw.opening;
+        String path = "android.resource://" + getPackageName() + "/" + R.raw.opening_hortikultura;
         view.setVideoURI(Uri.parse(path));
         view.start();
 

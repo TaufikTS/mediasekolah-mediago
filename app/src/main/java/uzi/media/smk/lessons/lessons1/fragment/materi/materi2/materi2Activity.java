@@ -1,4 +1,4 @@
-package uzi.media.smk.lessons.lessons1.fragment.materi.elementpenyangga;
+package uzi.media.smk.lessons.lessons1.fragment.materi.materi2;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,15 +13,17 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import uzi.media.smk.R;
-import uzi.media.smk.lessons.lessons1.fragment.materi.elementpenyangga.isielemenpenyangga.Bantalan;
-import uzi.media.smk.lessons.lessons1.fragment.materi.elementpenyangga.isielemenpenyangga.Pegas;
+import uzi.media.smk.lessons.lessons1.fragment.materi.materi2.isimateri2.KeseimbanganBendaTegar;
+import uzi.media.smk.lessons.lessons1.fragment.materi.materi2.isimateri2.L1M2S1_Pemilihan_Benih;
+import uzi.media.smk.lessons.lessons1.fragment.materi.materi2.isimateri2.Momen;
+import uzi.media.smk.lessons.lessons1.fragment.materi.materi2.isimateri2.VektorResultant;
 
 /**
  * Created by uzi on 27/07/17.
  * Email : fauzisholichin@gmail.com
  */
 
-public class ElementPenyanggaActivityL1 extends AppCompatActivity {
+public class materi2Activity extends AppCompatActivity {
 
     private ViewPager mPager;
     private TabLayout mTabLayout;
@@ -46,7 +48,7 @@ public class ElementPenyanggaActivityL1 extends AppCompatActivity {
 
         ActionBar ab = getSupportActionBar();
         if (ab != null) {
-            ab.setTitle(R.string.nav_pengantar);
+            ab.setTitle(R.string.nav_materi2);
             ab.setDisplayHomeAsUpEnabled(true);
         }
         mPager = (ViewPager) findViewById(R.id.pager);
@@ -66,16 +68,20 @@ public class ElementPenyanggaActivityL1 extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 2;
+            return 4;
         }
 
         @Override
         public Fragment getItem(int i) {
             switch (i) {
                 case 0:
-                    return new Pegas();
+                    return new L1M2S1_Pemilihan_Benih();
                 case 1:
-                    return new Bantalan();
+                    return new VektorResultant();
+                case 2:
+                    return new Momen();
+                case 3:
+                    return new KeseimbanganBendaTegar();
 
             }
             return null;
@@ -85,9 +91,13 @@ public class ElementPenyanggaActivityL1 extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "PEGAS";
+                    return "Pemilihan Benih";
                 case 1:
-                    return "BANTALAN";
+                    return "VEKTOR RESULTAN";
+                case 2:
+                    return "MOMEN";
+                case 3:
+                    return "KESEIMBANGAN BENDA TEGAR";
             }
             return "";
         }

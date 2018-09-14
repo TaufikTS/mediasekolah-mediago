@@ -20,13 +20,13 @@ public class ListMateriMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materi_menu);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Diagram Semantik");
+        toolbar.setTitle("ATPH");
         setSupportActionBar(toolbar);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("Kelas X"));
-        tabLayout.addTab(tabLayout.newTab().setText("Kelas XI"));
-        tabLayout.addTab(tabLayout.newTab().setText("Kelas XII"));
+        tabLayout.addTab(tabLayout.newTab().setText("C2 Kelas XI"));
+        tabLayout.addTab(tabLayout.newTab().setText("C3 Kelas XI"));
+        tabLayout.addTab(tabLayout.newTab().setText("C3 Kelas XII"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         final PagerAdapter adapter = new PagerAdapter
